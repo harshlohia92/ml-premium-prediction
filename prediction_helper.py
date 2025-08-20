@@ -1,4 +1,3 @@
-
 import pandas as pd
 import joblib
 
@@ -117,3 +116,4 @@ def predict(input_dict):
         prediction = model_rest.predict(input_df)
 
     return int(prediction[0])
+
