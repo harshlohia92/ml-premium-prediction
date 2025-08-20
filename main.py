@@ -1,4 +1,3 @@
-# codebasics ML course: codebasics.io, all rights reserverd
 
 import streamlit as st
 from prediction_helper import predict
@@ -76,3 +75,4 @@ input_dict = {
 if st.button('Predict'):
     prediction = predict(input_dict)
     st.success(f'Predicted Health Insurance Cost: {prediction}')
+
